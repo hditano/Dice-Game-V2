@@ -10,9 +10,18 @@
     flex-direction: row;
     max-width: 600px;
     justify-content: center;
-    flex-grow: 2;
     border-radius: 12px;
     
+}
+
+#labels {
+    display: flex;
+    justify-content: center;
+    color: rgb(19, 19, 19);
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .buttonsPanel {
@@ -32,6 +41,7 @@
     font-weight: bolder;
     color: #000000;
     border-radius: 12px;
+    width: 300px;
 }
 
 #rollButton, #resetButton {
